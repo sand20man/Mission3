@@ -1,0 +1,15 @@
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/obj/Debug/net8.0/Mission3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/obj/Debug/net8.0/Mission3.AssemblyInfoInputs.cache
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/obj/Debug/net8.0/Mission3.AssemblyInfo.cs
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/obj/Debug/net8.0/Mission3.csproj.CoreCompileInputs.cache
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/obj/Debug/net8.0/Mission3.sourcelink.json
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/bin/Debug/net8.0/Mission3
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/bin/Debug/net8.0/Mission3.deps.json
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/bin/Debug/net8.0/Mission3.runtimeconfig.json
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/bin/Debug/net8.0/Mission3.dll
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/bin/Debug/net8.0/Mission3.pdb
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/obj/Debug/net8.0/Mission3.dll
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/obj/Debug/net8.0/refint/Mission3.dll
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/obj/Debug/net8.0/Mission3.pdb
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/obj/Debug/net8.0/Mission3.genruntimeconfig.cache
+/Users/colemansandy/Desktop/BYU/Junior Core/413/Mission3/obj/Debug/net8.0/ref/Mission3.dll

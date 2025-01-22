@@ -18,18 +18,17 @@ public class FoodItem
 
 public class Foodies
 {
-    private List<FoodItem> foodItems = new List<FoodItem>(); // List to manage FoodItem objects
+    public List<FoodItem> foodItems = new List<FoodItem>(); // List to manage FoodItem objects
     
     public string addFood(string name, string type, int quantity, string expirationDate) // Add a food item
     {
         FoodItem newFood = new FoodItem(name, type, quantity, expirationDate); // Create FoodItem object
-        foodItems.Add(newFood); // Add to the list
+        FoodItems.Add(newFood); // Add to the list
         return $"\nAdded: {newFood.Name}\n";
     }
     
     public string deleteFood(string name) //Delete specific food item
     {
-        // Example implementation: return a success message
         foodItems.Remove(foodItems.FirstOrDefault(item => item.Name == name));
         return $"\nDeleted: {name}\n";
     }

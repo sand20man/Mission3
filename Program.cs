@@ -9,6 +9,14 @@ using Mission3;
 
 int option = 0;
 bool run = true;
+string name = "";
+string type = "";
+int quantity = 0;
+string expirationDate = "";
+string result = "";
+
+
+
 
 Foodies foodies = new Foodies(); // Create an instance of the Foodies class
 while (run == true)
@@ -25,23 +33,23 @@ while (run == true)
     if (option == 1) // Add Food Item
     {
         Console.WriteLine("What is the name of the food item?");
-        string name = Console.ReadLine().ToLower();
+        name = Console.ReadLine().ToLower();
         Console.WriteLine("What type of food?");
-        string type = Console.ReadLine();
+        type = Console.ReadLine();
         Console.WriteLine("How many?");
-        int quantity = int.Parse(Console.ReadLine());
+        quantity = int.Parse(Console.ReadLine());
         Console.WriteLine("What is the expiration date?");
-        string expirationDate = Console.ReadLine();
+        expirationDate = Console.ReadLine();
 
         // Call the addFood method correctly
-        string result = foodies.addFood(name, type, quantity, expirationDate);
+        result = foodies.addFood(name, type, quantity, expirationDate);
         Console.WriteLine(result); // Output the result of adding the food item
     }
     else if (option == 2) //Delete Food Item
     {
         Console.WriteLine("What is the name of the food item?");
-        string name = Console.ReadLine().ToLower();
-        string result = foodies.deleteFood(name);
+        name = Console.ReadLine().ToLower();
+        result = foodies.deleteFood(name);
         Console.WriteLine(result);
     }
     else if (option == 3) //Print List of Current Food Item
