@@ -23,7 +23,7 @@ public class Foodies
     public string addFood(string name, string type, int quantity, string expirationDate) // Add a food item
     {
         FoodItem newFood = new FoodItem(name, type, quantity, expirationDate); // Create FoodItem object
-        FoodItems.Add(newFood); // Add to the list
+        foodItems.Add(newFood); // Add to the list
         return $"\nAdded: {newFood.Name}\n";
     }
     
