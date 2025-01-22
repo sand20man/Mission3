@@ -24,14 +24,14 @@ public class Foodies
     {
         FoodItem newFood = new FoodItem(name, type, quantity, expirationDate); // Create FoodItem object
         foodItems.Add(newFood); // Add to the list
-        return $"Added: {newFood.Name}\n";
+        return $"\nAdded: {newFood.Name}\n";
     }
     
     public string deleteFood(string name) //Delete specific food item
     {
         // Example implementation: return a success message
         foodItems.Remove(foodItems.FirstOrDefault(item => item.Name == name));
-        return $"Deleted: {name}\n";
+        return $"\nDeleted: {name}\n";
     }
 
     public void listFood() //List objects in foodItem list
